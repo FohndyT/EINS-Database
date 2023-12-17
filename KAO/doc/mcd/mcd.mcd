@@ -1,0 +1,65 @@
+:::
+compte: idc, courriel, nom, prenom, mot_de_passe
+::::
+
+:::
+df, _11 enregistrement, 0N compte
+:::
++traiteur: nom
+
+df, 11 enregistrement, 11 type_role
+:::
+enregistrement: idenr, type_pref, type_intol, commentaire, politique_check, check_in
+::
+df, _11 enregistrement, 1N evenement
+servir, 01 evenement, 0N traiteur: date
+
+
+type_role: idrole
+::
+benevole:
+:
+conferencier:
+df, 01 conferencier, _11 chambre
+chambre: hotel, adresse, debut, fin
+evenement: idevn, titre, edition, debut, fin
+:
+
+/XT\ type_role <- public, staff
+staff: telephone
+/XT\ staff <- benevole, animateur
+animateur: 
+/XT\ animateur <- conferencier, responsable
+responsable:
+df, 0N conferencier, _11 absence
++absence: debut, _fin
+df, 1N evenement, _11 theme
+:
+
+:
+public: type_diplome, occupation, organisation
+:
+equipe, 01 public, 0N activite: numero
+:
+animation, 0N animateur, 0N activite
+:
+gestion, 1N responsable, 11 theme
+theme: idt, sujet, description, debut, fin
+:
+
+::
+/XT\ public <- etudiant_udes, professionnel
+professionnel:
+::::
+df, 1N theme, _11 activite
+
+:::
+etudiant_udes: matricule, _cip
+:
+evaluation, 01 etudiant_udes, 0N activite: resultat
+::
+activite: ida, titre, description, type_activite, debut, fin
+
+:::::::
+local: idl, lieu, adresse, emplacement, nb_places
+deroulement, 1N activite, 1N local

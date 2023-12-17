@@ -1,0 +1,32 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="KAO" type="DatabaseScript">
+    <script-file value="$PROJECT_DIR$/../../../../KAO/src/kao/table_ret.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/src/kao/schema_des.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/src/kao/schema_cre.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/src/kao/table_cre.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/src/kao/table_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/src/kao/contraintes_cre.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/src/kao/vue_cre.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/01_evenement_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/02_theme_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/03_activite_test-val-ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/04_compte_test-val-ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/05_responsable_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/06_conferencier_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/07_benevole_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/08_gestion_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/09_animation_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/10_etudiant_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/11_professionnel_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/12_chambre_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/13_absence_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/14_local_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/15_deroulement_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/16_equipe_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/17_traiteur_test-val_ins.sql" />
+    <script-file value="$PROJECT_DIR$/../../../../KAO/test/kao/18_evaluation_test-val_ins.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="42e7ec8b-dfe1-49ed-8b02-fbd595540fc5" />
+    <method v="2" />
+  </configuration>
+</component>
